@@ -1,3 +1,5 @@
+package Lesson2;
+
 public class Lesson2 {
     public static void main(String[] args) {
         Pen pen = new Pen();
@@ -16,10 +18,10 @@ public class Lesson2 {
         pinkpen.tip = 1f;
         pinkpen.capped = false;
         pinkpen.charge = 20;
-        // go to method's
+        // Show the pink pen :D
         pinkpen.stats();
 
-        /* factory pen */
+        /* factory pen, how is our mode of factory? */
         Pen factory = new Pen();
         factory.stats();
     }
