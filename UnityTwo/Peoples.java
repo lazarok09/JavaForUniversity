@@ -1,6 +1,6 @@
 package UnityTwo;
 
-public class Antonio extends People {
+public class Peoples extends People {
     public static void main(String[] args) {
         People pessoa = new People();
         System.out.println("-----First constructor with 4 params-----");
