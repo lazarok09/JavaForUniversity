@@ -5,7 +5,6 @@ public class People {
     private int age;
     private String gender;
     private double height;
-    private boolean authorization;
 
     // constructor meth
 

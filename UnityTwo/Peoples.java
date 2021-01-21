@@ -24,5 +24,11 @@ public class Peoples extends People {
         maria.People("mariana", 32);
         maria.status();
 
+        System.out.println("-----Constructor and garbage collector------");
+        People p1 = new People();
+        p1.People("Mariana", 35, "mulher", 1.80);
+        p1.status();
+        p1 = null; // garbage collector makes the reference of p1 be null;
+        p1.People("André", 33, "homem", 22);
     }
 }
