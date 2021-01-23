@@ -1,0 +1,21 @@
+cc para conta corrente
+cp para conta poupança
+
+status = false;
+com o abrirConta(digo que tipo de conta é) e coloco status pra ativo (true)
+se ele abrir conta corrente ganha 50 reais;
+se for poupança ele JÁ COMEÇA COM 150 REAIS;
+// fechar conta
+pra fechar conta ele nem pode ter dinheiro na conta, nem débito nela (vindo de mensalidade)
+
+// metod odepositar
+pra depositar o status tem que tá verdadeiro, a conta tem que estar aberta
+// sacar dinheiro
+ter saldo  e conta estar aberta só posso sacar até o valor que tenho no máximo, se
+tiver apenas mil reais só posso sacar até isso.
+
+// pagar mensalidade
+quando chamar esse método o cliente da conta corrente paga 2 reais
+e o da poupança paga 20 reais de mensalidade.
+// visibilidade de cada atributo
+// metodo construtor > sempre que uma nova conta for criada, ela é falsa e saldo é zero.
