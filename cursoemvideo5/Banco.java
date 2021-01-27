@@ -3,7 +3,7 @@ package cursoemvideo5;
 import java.util.Scanner;
 import java.util.Random;
 
-public class main {
+public class Banco {
     public static void main(String[] args) {
         Random numeroRandomico = new Random();
         Scanner s = new Scanner(System.in);
